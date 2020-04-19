@@ -1,0 +1,96 @@
+html {
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    background-color: #7fa9e9;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+body {
+    text-align: center;
+    color: #0b2852;
+}
+
+table {
+    margin: 50px auto;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    color: #0b2852;
+
+}
+
+td {
+    width: 55px;
+    height: 55px;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: #24508d;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #24508d;
+    color: white;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+label[for="checkErrors"]{
+    /* Your CSS goes that makes the label look like a button goes here */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    color: #24508d;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+ }
+
+label[for="checkErrors"]:hover {
+    background-color: #24508d;
+    color: white;
+    cursor: pointer;
+}
+
+#checkErrors {
+     display:none;
+ }
+
+.empty {
+    background-color: rgba(255, 255, 255, 0.363);
+    border: 1px solid #6992d1;
+}
+
+.blue {
+    background-color: #28589b;
+    border: 1px solid #6992d1;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid #6992d1;
+}
